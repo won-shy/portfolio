@@ -17,7 +17,7 @@ body {
 header {
     display: flex;
     background-color: #06ADBF;
-    background-image: linear-gradient(to left, var(--main-color-2),#D9306E);
+    background-image: linear-gradient(to left, var(--main-color-2), var(--main-font-color));
     height: 90px;
     flex-wrap: wrap;
 }
@@ -29,8 +29,8 @@ h1 {
     margin: 1% 2% 1% 0%;
     padding: 1% 2% 0% 6%;
     background-color: #0B4359;
-    color: #06ADBF;
-    box-shadow: 3px 3px 2px 1px #D90DA2;
+    color: var(--main-color-1);
+    box-shadow: 3px 3px 2px 1px var(--main-color-2);
 }
 
 nav {
@@ -123,7 +123,7 @@ h3 {
     color: #06ADBF;
 }
 
-/* Specific Styles for My Work seciton */
+/* WORK SECTION STYLING */
 .work-boxes {
     display: flex;
     flex-wrap: wrap;
@@ -147,13 +147,13 @@ h3 {
     transition: opacity 0.5s;
 }
 
-/* Specify a larger size for the first work image */
+/* Enlarge first work box */
 .work-boxes>#first-box {
     width: 98%;
     height: 300px;
 }
 
-/* Specify the styles for the Title for the work image */
+/* Workboxes text styling */
 .work-title {
     position: absolute;
     width: 220px;
@@ -170,7 +170,7 @@ h4 {
     margin: 2%;
 }
 
-/* Specific styles for Contact me section */
+/* Contact Me Section stylings */
 .detail-column nav {
     width: 100%;
     display: flex;
@@ -188,18 +188,18 @@ h4 {
     transition: all 0.5s ease-in-out;
 }
 
-/* Change styles when mouse over the navigation items in the header */
+/* Styling for header when mouse is hovering over*/
 nav a:hover {
     color: #06ADBF;
     border-color: beige;
 }
 
-/* Changes styles when mouse over the "Work" images */
+/* Work image styling changes when mouse is hovering over */
 .work-box img:hover {
     opacity: 1;
 }
 
-/* Changes styles when mouse over the "Contact Me" items */
+/* Contact Me items styling changes when mouse is hovering over */
 .detail-column nav a:hover {
     color: #06ADBF;
     box-shadow: inset 0px -55px #D90DA2;
