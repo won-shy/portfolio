@@ -41,7 +41,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Links
 
-* Live site: 
+* Live site: <https://won-shy.github.io/portfolio/>
 
 * Github Repository: <https://github.com/won-shy/portfolio>
 
