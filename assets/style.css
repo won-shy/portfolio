@@ -101,7 +101,7 @@ h3 {
     line-height: 1.5;
 }
 
-/* Specific Styles for About Me section */
+/* specific stylings for About Me section */
 .about-me-boxes {
     display: flex;
 }
@@ -123,7 +123,7 @@ h3 {
     color: #06ADBF;
 }
 
-/* WORK SECTION STYLING */
+/* work section stylings */
 .work-boxes {
     display: flex;
     flex-wrap: wrap;
@@ -147,13 +147,13 @@ h3 {
     transition: opacity 0.5s;
 }
 
-/* Enlarge first work box */
+/* first box is larger than rest */
 .work-boxes>#first-box {
     width: 98%;
     height: 300px;
 }
 
-/* Workboxes text styling */
+/* text around work boxes styling */
 .work-title {
     position: absolute;
     width: 220px;
@@ -170,7 +170,13 @@ h4 {
     margin: 2%;
 }
 
-/* Contact Me Section stylings */
+.work-boxes>#third-box {
+    display: inline-flex;
+    position: relative;
+}
+
+
+/* Contact Me section stylings */
 .detail-column nav {
     width: 100%;
     display: flex;
@@ -230,7 +236,7 @@ nav a:hover {
     }
 }
 
-/* This changes section to display: block when screen width < 992px */
+/* Changes section to "display: block" when screen width < 992px */
 @media screen and (max-width: 992px) {
     section {
         display: block;
@@ -248,7 +254,7 @@ nav a:hover {
     }
 }
 
-/* Change the display of the elements with the detail box when screen less then 768px */
+/* Change the display when screen less then 768px */
 @media screen and (max-width: 768px) {
     .about-me-boxes {
         display: block;

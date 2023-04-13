@@ -38,6 +38,13 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ![Alt text](/assets/images/screenshot-2.png?raw=true)
 
+
+## Links
+
+* Live site: 
+
+* Github Repository: <https://github.com/won-shy/portfolio>
+
 ## Installation
 
 No installation required.
