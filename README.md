@@ -35,15 +35,13 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 ## Screenshot 
-```md
-    ![alt text](assets/images/screenshot-2.png)
-    ```
 
+![Alt text](/assets/images/screenshot-2.png?raw=true)
 
 ## Installation
-```
+
 No installation required.
 
 ## License
-```
+
 MIT License
